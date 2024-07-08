@@ -68,9 +68,9 @@ const config = {
 					from: { height: "var(--radix-accordion-content-height)" },
 					to: { height: "0" },
 				},
-				"infinite-scroll": {
+				"logo-cloud": {
 					from: { transform: "translateX(0)" },
-					to: { transform: "translateX(-100%)" },
+					to: { transform: "translateX(calc(-100% - 4rem))" },
 				},
 			},
 			fontFamily: {
@@ -79,7 +79,7 @@ const config = {
 			animation: {
 				"accordion-down": "accordion-down 0.2s ease-out",
 				"accordion-up": "accordion-up 0.2s ease-out",
-				"infinite-scroll": "infinite-scroll 25s linear infinite",
+				"logo-cloud": "logo-cloud 30s linear infinite",
 			},
 		},
 	},

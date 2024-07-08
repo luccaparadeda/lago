@@ -9,7 +9,7 @@ export default function Home() {
 			<section className="flex mt-36 flex-col gap-14">
 				<Hero />
 			</section>
-			<section>
+			<section className="w-3/4 mt-48">
 				<TrustedByCompanies />
 			</section>
 		</main>

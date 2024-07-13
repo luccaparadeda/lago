@@ -9,7 +9,7 @@ const Hero = () => {
 				<span className="tracking-widest text-yellow-300">A HIKING GUIDE</span>
 			</div>
 			<h2 className="text-5xl text-white">LOREM LOREM LOREM IPSUM</h2>
-			<p className="flex gap-4 text-white">
+			<p className="flex text-lg gap-4 text-white">
 				Conheça agora <MoveDown />
 			</p>
 		</div>

@@ -42,11 +42,13 @@ const logos = [
 
 const TrustedByCompanies = () => {
 	return (
-		<div className="w-full py-12 flex flex-col items-center">
-			<p className="text-white text-3xl">Empresas que confiam nos nosso serviços</p>
-			<div className="mx-auto w-full px-4 md:px-8">
+		<div className="w-full py-12 gap-6 flex flex-col items-center">
+			<p className="text-white text-3xl">
+				Empresas que confiam nos nosso serviços:
+			</p>
+			<div className="mx-auto flex justify-center items-center w-full px-4 md:px-8">
 				<div
-					className="group relative mt-6 flex gap-6 overflow-hidden p-2"
+					className="group w-2/3 relative mt-6 flex gap-6 overflow-hidden p-2"
 					style={{
 						maskImage:
 							"linear-gradient(to left, transparent 0%, black 20%, black 80%, transparent 95%)",
@@ -65,7 +67,7 @@ const TrustedByCompanies = () => {
 										src={logo.url}
 										width={112}
 										height={40}
-										className="h-10 w-28 px-2 brightness-0  dark:invert"
+										className="h-10 w-28 px-2 brightness-0  invert"
 										alt={`${logo.name}`}
 									/>
 								))}

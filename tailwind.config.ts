@@ -23,7 +23,7 @@ const config = {
 				'bg-hero-image': 'url("/bg-hero-image.jpg")'
 			},
 			boxShadow: {
-				'inner-shadow-hero-image': 'inset 0 -2rem 200px rgb(11, 29, 38)',
+				'inner-hero-image': 'inset 0 20rem 200px rgb(11, 29, 38)',
 			},
 			colors: {
 				border: "hsl(var(--border))",

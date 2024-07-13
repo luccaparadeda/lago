@@ -19,6 +19,12 @@ const config = {
 			},
 		},
 		extend: {
+			backgroundImage: {
+				'bg-hero-image': 'url("/bg-hero-image.jpg")'
+			},
+			boxShadow: {
+				'inner-shadow-hero-image': 'inset 0 -2rem 200px rgb(11, 29, 38)',
+			},
 			colors: {
 				border: "hsl(var(--border))",
 				input: "hsl(var(--input))",

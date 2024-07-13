@@ -5,8 +5,8 @@ import Instagram from "@/../public/instagram.svg";
 
 const Navbar = () => {
 	return (
-		<nav className="grid grid-cols-3 h-fit w-full px-10 py-7">
-			<h1 className="text-2xl font-bold tracking-widest">LAGO</h1>
+		<nav className="grid grid-cols-3 text-white h-fit w-full px-10 py-7">
+			<h1 className="text-2xl  font-bold tracking-widest">LAGO</h1>
 			<div className="flex gap-10 justify-self-center">
 				<Link
 					href={"/Consultorias"}
@@ -28,9 +28,9 @@ const Navbar = () => {
 				</Link>
 			</div>
 			<div className="flex gap-4 justify-self-end">
-				<p>Siga-nos</p>
-				<Link href="https://www.instagram.com/lagoconsultorias/">
-					<Image src={Instagram} alt="Instagram logo" />
+				<Link className="flex gap-3 items-center" href="https://www.instagram.com/lagoconsultorias/">
+					<p>Siga-nos</p>
+					<Image src={Instagram} alt="Instagram logo" color="white"/>
 				</Link>
 			</div>
 		</nav>

@@ -1,6 +1,8 @@
+import CommunityProof from "@/components/CommunityProof";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import TrustedByCompanies from "@/components/TrustedByCompanies";
+import WhoWeAre from "@/components/WhoWeAre";
 import WhyUs from "@/components/WhyUs";
 
 export default function Home() {
@@ -15,8 +17,14 @@ export default function Home() {
 					<TrustedByCompanies />
 				</section>
 			</div>
-			<section className="py-56 min-h-screen px-52">
+			<section className="py-56 min-h-screen px-44">
 				<WhyUs />
+			</section>
+			<section className="px-44 py-56">
+				<WhoWeAre />
+			</section>
+			<section className="w-full flex items-center px-44">
+				<CommunityProof />
 			</section>
 		</main>
 	);

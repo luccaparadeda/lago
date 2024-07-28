@@ -1,4 +1,5 @@
 import CommunityProof from "@/components/CommunityProof";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import OurServices from "@/components/OurServices";
@@ -19,10 +20,10 @@ export default function Home() {
 					<TrustedByCompanies />
 				</section>
 			</div>
-			<section className="py-56 min-h-screen px-44">
+			<section className="pt-56 min-h-screen px-44">
 				<WhyUs />
 			</section>
-			<section className="px-44 py-56">
+			<section className="px-44 pb-56">
 				<WhoWeAre />
 			</section>
 			<section className="w-full flex items-center px-44">
@@ -33,6 +34,9 @@ export default function Home() {
 			</section>
 			<section className="w-full px-44">
 				<OurServices />
+			</section>
+			<section className="w-full py-20 px-36	">
+				<Footer />
 			</section>
 		</main>
 	);

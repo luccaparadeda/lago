@@ -1,6 +1,8 @@
 import CommunityProof from "@/components/CommunityProof";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import OurServices from "@/components/OurServices";
+import OurWork from "@/components/OurWork";
 import TrustedByCompanies from "@/components/TrustedByCompanies";
 import WhoWeAre from "@/components/WhoWeAre";
 import WhyUs from "@/components/WhyUs";
@@ -25,6 +27,12 @@ export default function Home() {
 			</section>
 			<section className="w-full flex items-center px-44">
 				<CommunityProof />
+			</section>
+			<section className="w-full py-52 flex justify-center items-center px-44">
+				<OurWork />
+			</section>
+			<section className="w-full px-44">
+				<OurServices />
 			</section>
 		</main>
 	);

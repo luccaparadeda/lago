@@ -5,7 +5,7 @@ import type { FC } from "react";
 
 const OurWork: FC = () => {
 	return (
-		<div className="w-2/3 h-screen items-center gap-24 flex flex-col">
+		<div className="w-full lg:w-2/3 h-screen items-center gap-24 flex flex-col">
 			<div className="text-center flex flex-col gap-4">
 				<p className="text-red-500 font-light text-sm">Case Studies</p>
 				<p className="font-semibold text-2xl">

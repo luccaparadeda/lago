@@ -43,7 +43,7 @@ const logos = [
 const TrustedByCompanies = () => {
 	return (
 		<div className="w-full py-12 gap-6 flex flex-col items-center">
-			<p className="text-white text-3xl">
+			<p className="text-white text-xl md:text-3xl">
 				Empresas que confiam nos nosso serviços:
 			</p>
 			<div className="mx-auto flex justify-center items-center w-full px-4 md:px-8">

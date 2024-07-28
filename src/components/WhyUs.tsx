@@ -33,9 +33,11 @@ const WHY_US_CARDS: WhyUsCards[] = [
 const WhyUs: FC = () => {
 	return (
 		<div className="flex flex-col gap-20 w-full items-center">
-			<p className="text-4xl flex gap-3 font-semibold">
+			<p className="text-xl sm:text-3xl lg:text-4xl flex gap-3 font-semibold">
 				Por quê escolher{" "}
-				<Image width={100} src={WhyUsImage} alt="imagem simples para beleza" />
+				<div className="w-28 h-8 lg:h-11 relative">
+					<Image fill src={WhyUsImage} alt="imagem simples para beleza" />
+				</div>
 				<span className="italic">o LAGO</span>
 			</p>
 			<div className="grid gap-12 justify-center grid-cols-1 lg:grid-cols-3 lg:grid-rows-1">

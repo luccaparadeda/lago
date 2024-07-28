@@ -3,7 +3,7 @@ import type { FC } from "react";
 
 const CommunityProof: FC = () => {
 	return (
-		<div className="flex w-full justify-between">
+		<div className="flex w-full flex-col gap-20 items-center lg:flex-row justify-between">
 			<CommunityCard
 				description="lorem lorem lorem lorem lorem lore"
 				fullName="Pedro da Silve"

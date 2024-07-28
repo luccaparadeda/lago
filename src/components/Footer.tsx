@@ -2,7 +2,7 @@ import type { FC } from "react";
 
 const Footer: FC = () => {
 	return (
-		<footer className="bg-gray-700/20 border border-gray-400/40 p-16 rounded-3xl flex-row text-sm flex items-center gap-10">
+		<footer className="bg-gray-700/20 border border-gray-400/40 p-16 rounded-3xl flex-col md:flex-row text-sm flex items-center gap-10">
 			<p className="text-xl">LAGO</p>
 			<p className="text-gray-300">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
